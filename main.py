@@ -16,7 +16,7 @@ if __name__ == "__main__":
     driver.find_element_by_xpath('//*[@id="formwrapper"]/div[4]/input').click()
 
     # Wait for Student Daily Self-Assessment to load
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.XPATH, '//*[@id="Field12_1"]'))
     )
 
