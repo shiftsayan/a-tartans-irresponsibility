@@ -21,10 +21,10 @@ if __name__ == "__main__":
     )
 
     # Fill in Student Daily Self-Assessment
-    driver.find_element_by_xpath('//*[@id="Field2_0"]').click() # Planning to be on campus today
+    driver.find_element_by_xpath('//*[@id="Field2_0"]').click()  # Planning to be on campus today
     driver.find_element_by_xpath('//*[@id="Field12_1"]').click() # No close contact with someone diagnosed with COVID-19
-    driver.find_element_by_xpath('//*[@id="Field3_1"]').click() # No symptoms of COVID-19 in the last 24 hours
-    driver.find_element_by_xpath('//*[@id="Field5_2"]').click() # No temperature check today
+    driver.find_element_by_xpath('//*[@id="Field3_1"]').click()  # No symptoms of COVID-19 in the last 24 hours
+    driver.find_element_by_xpath('//*[@id="Field5_2"]').click()  # No temperature check today
     
     # Submit Student Daily Self-Assessment
     driver.find_element_by_xpath('//*[@id="saveForm"]').click()
